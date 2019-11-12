@@ -20,12 +20,12 @@ const App = (props) => {
     <Provider store={store}>
       <div className="boxes">
         <div className="box">
-          <Header car={props.car} />
-          <AddedFeatures car={props.car} />
+          <Header />
+          <AddedFeatures />
         </div>
         <div className="box">
-          <AdditionalFeatures additionalFeatures={props.additionalFeatures} />
-          <Total car={props.car} additionalPrice={props.additionalPrice} />
+          <AdditionalFeatures />
+          <Total />
         </div>
       </div>
     </Provider>
