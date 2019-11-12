@@ -9,9 +9,10 @@ const Total = props => {
   );
 };
 
-const mapStateToProps = ({car}) => {
+const mapStateToProps = ({car, additionalPrice}) => {
   return {
-    car
+    car,
+    additionalPrice
   }
 }
 
